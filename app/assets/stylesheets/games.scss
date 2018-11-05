@@ -1,0 +1,50 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.headers {
+  font-family: 'Teko', sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+.list-inline-item {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 30px;
+  background: yellow;
+  line-height: 100px;
+  margin: 0px !important;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+#word {
+  width: 70%;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+#submit {
+  width:15%;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+form {
+  width:100%;
+}
+
+.results {
+  list-style-type: none;
+  border: 1px solid black;
+  text-align: center;
+}
+// .list-result {
+//   text-align: center;
+// }
+.back {
+  margin: 20px;
+  text-align: center;
+}

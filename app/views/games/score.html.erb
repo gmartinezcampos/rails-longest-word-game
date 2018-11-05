@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="headers">
+    <h1>Result</h1>
+  </div>
+    <div class="letters text-center">
+    <ul class="list-inline">
+      <% @letters.each do |letter| %>
+      <li class="list-inline-item"><%= letter %></li>
+    <% end %>
+    </ul>
+  <div class="justify-content-center">
+    <ul class="list-result list-group">
+      <li class="list-group-item">Your word: <strong><%= @words %></strong></li>
+      <li class="list-group-item">English word? <%= @is_english_word %></li>
+      <li class="list-group-item">Is in grid? <%= @is_match_word %></li>
+      <li class="list-group-item">Results: <strong><%= @generate_message %></strong> </li>
+    </ul>
+  </div>
+
+  <div class="back">
+    <%= link_to "play again", new_path %>
+  </div>
+
+</div>
